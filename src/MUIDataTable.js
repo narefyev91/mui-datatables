@@ -1143,7 +1143,6 @@ class MUIDataTable extends React.Component {
           changeRowsPerPage={this.changeRowsPerPage}
           changePage={this.changePage}
         />
-          <div>Hello from scratch</div>
         <div className={classes.liveAnnounce} aria-live={'polite'} ref={el => (this.announceRef = el)}>
           {announceText}
         </div>
